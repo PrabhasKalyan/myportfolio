@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(37,41,52);
+}
+.view{
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    padding-top: 45vh;
+    padding-bottom: 50vh;
+    
+}
+.view span{
+    color: rgb(226,26,109);
+}
+.expand{
+    display: inline-block;
+    border: 2px solid white;
+    font-size: 1.5vw;
+    font-weight:lighter;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.expand p{
+    color: white;
+    text-decoration: none;
+}
+.down{
+    padding-left: 1vw;
+}
+.expand:hover{
+    background-color:rgb(6,194,201);
+    .down{
+    transform: rotateZ(-90deg);
+    color: white;
+    }  
+}
+.nav{
+    display:flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(27,36,47);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid aqua;
+    position: sticky;
+
+}
+.nav a:hover{
+    color: rgb(226,26,109);
+}
+.skills{
+    background: white;
+}
+.skills h1{
+    text-align: center;
+    font-size: 7vh;
+    padding-top: 10vh;
+}
+.skilbox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skilbox img{
+    width:240px;
+    height: 240px;
+}
+.descriptionjs{
+    display: none;  
+}
+.descriptionc{
+    display:none;
+}
+.descriptionpy{
+    display:none;
+}
+.descriptiondj{
+    display:none;
+}
+.descriptionml{
+    display:none;
+}
+.logojs:hover{
+    .descriptionjs{
+        display:inline-block;
+        height: 300px;
+        width:240px;
+        background-color:whitesmoke;
+        border-radius: 15%;        
+    }
+}
+.logoc:hover{
+    .descriptionc{
+        display:inline-block;
+        height: 300px;
+        width:240px;
+        background-color:whitesmoke;
+        border-radius: 15%;
+        padding-top:20vh;        
+    }
+}
+.logopy:hover{
+    .descriptionpy{
+        display:inline-block;
+        height: 300px;
+        width:240px;
+        background-color:whitesmoke;
+        border-radius: 15%;        
+    }
+}
+.logodj:hover{
+    .descriptiondj{
+        display:inline-block;
+        height: 300px;
+        width:240px;
+        background-color:whitesmoke;
+        border-radius: 15%;        
+    }
+}
+.logoml:hover{
+    .descriptionml{
+        display:inline-block;
+        height: 300px;
+        width:240px;
+        background-color:whitesmoke;
+        border-radius: 15%;        
+    }
+}
+.Home{
+    display:flex;
+    justify-content: space-evenly;
+    padding:10vh;
+    background: white;
+}
+.Home img{
+    height: 30vw;
+    width:30vw;
+    border-radius: 100%;
+}
+.Home p{
+    height:30vw;
+    width:30vw;
+    font-size: 2vw;
+    border-radius: 15%;
+}
+.Home p span{
+    color: rgb(226,26,109);
+}
+.project{
+    display:grid;
+}
